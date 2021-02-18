@@ -5,30 +5,48 @@
     font-size: 14px;
     font-family: Roboto;
     font-weight: 500;
+    
   }
 
+  body{
+    background-color: #F4F5F6;
+  }
+  
   button{
     border: none;
     background-color: white;
   }
 
+  .white-box{
+    background-color: white;
+    border-top: 1px solid #DADCE0;
+    border-bottom: 1px solid #DADCE0;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 100vw;
+  }
+
   .student{
-    border: 1px solid #bebdbd;
+    border: 1px solid #DADCE0;
     border-radius: 10px;
+    background-color: white;
   }
 
   .message-box{
     border: 1px solid #bebdbd;
     border-radius: 10px;
+    width: 90vw;
   }
 
  select {
-  border: 1px solid #999;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #CFCBFB;
+  border-radius: 7px;
+  opacity: 1;
   color: #4535f3;
   font-family: inherit;
   background: url('./image/drop_down_dark_gray.png') 97% center no-repeat;
   background-size: 30px;
-  border-radius: 5px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -41,11 +59,14 @@
 
   .form{
     height: 35vh;
+    font-size: 16px;
   }
   .btn-send{
-    background-color: #4535f3;
+    background: #3F3FEA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 8px #00000019;
+    border-radius: 10px;
+    opacity: 1;
     color: white;
-    border-radius: 7px;
   }
   .lecturer-message-box{
     border: 1px solid #bebdbd;
@@ -53,11 +74,11 @@
   }
 
   .from-lecturer{
-    color: #4535f3;
+    color: #4535F3;
   }
 
   .my-btn{
-    box-shadow: 1px 1px 2px #b3b0ab;
+    box-shadow: 0px 0px 8px #0000001A;
     width: 20vw;
     border-radius: 10px;
   }
