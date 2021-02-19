@@ -42,7 +42,7 @@
     padding-top:10px;
     padding-bottom:10px;
     width: 100vw;
-    height: 70vh;
+    height: 67vh;
   }
 
   .show{
@@ -73,6 +73,7 @@
     border-radius: 10px;
     width: 89vw;
     position: relative;
+    height: 63vh;
   }
 
   .vote-list-image{
