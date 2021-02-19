@@ -64,10 +64,6 @@
     border-radius: 10px;
   }
 
-  .my-btnn{
-    margin-right: 1.7vw;
-  }
-
   .vote-box{
     border: 1px solid #DADCE0;
     border-radius: 10px;
@@ -90,3 +86,20 @@
       width: 30vw;
   }
 
+  @media ( min-width: 768px ) {
+    .student{
+      width: 588px;
+    }
+    .vote-box{
+      width: 588px;
+    }
+
+    .white-box{
+      height: 30vw;
+    }
+    .my-btn{
+      width: 80px;
+      height: 70px;
+    }
+  }
+  

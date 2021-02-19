@@ -56,9 +56,6 @@
     border-radius: 7px;
   }
     
-  select::-ms-expand {
-    display: none;
-  }
 
   .form{
     height: 25vh;
@@ -90,9 +87,6 @@
    
   }
 
-  .my-btnn{
-    margin-right: 1.7vw;
-  }
     
   table{
     position: relative;
@@ -105,4 +99,21 @@
     font-size: 12px;
   } 
 
+  
+  @media ( min-width: 768px ) {
+    .student{
+      width: 588px;
+    }
+    .message-box{
+      width: 588px;
+    }
+
+    .white-box{
+      height: 30vw;
+    }
+    .my-btn{
+      width: 80px;
+      height: 70px;
+    }
+  }
   

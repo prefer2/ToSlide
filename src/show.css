@@ -47,7 +47,7 @@
 
   .show{
       border: 1px solid #DADCE0;
-      height: 62vh;
+      height: 58vh;
       width: 89vw;
       border-radius: 10px;
   }
@@ -74,3 +74,21 @@
   .sended-student{
     color: #7C7D80;
   }
+
+  @media ( min-width: 768px ) {
+    .student{
+      width: 588px;
+    }
+    .show{
+      width: 588px;
+    }
+
+    .white-box{
+      height: 30vw;
+    }
+    .my-btn{
+      width: 80px;
+      height: 70px;
+    }
+  }
+  

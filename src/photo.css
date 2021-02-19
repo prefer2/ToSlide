@@ -1,74 +1,90 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-    font-family: Roboto;
-    font-weight: 500;
-    
-  }
-
-  body{
-    background-color: #F4F5F6;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
   
-  button{
-    border: none;
-    background-color: white;
-  }
+}
 
-  .white-box{
-    background-color: white;
-    border-top: 1px solid #DADCE0;
-    border-bottom: 1px solid #DADCE0;
-    padding-top:10px;
-    padding-bottom:10px;
-    width: 100vw;
-  }
+body{
+  background-color: #F4F5F6;
+}
 
+button{
+  border: none;
+  background-color: white;
+}
+
+.white-box{
+  background-color: white;
+  border-top: 1px solid #DADCE0;
+  border-bottom: 1px solid #DADCE0;
+  padding-top:10px;
+  padding-bottom:10px;
+  width: 100vw;
+  height: 61vh;
+}
+
+.student{
+  border: 1px solid #DADCE0;
+  border-radius: 10px;
+  background-color: white;
+  width: 89vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-box{
+  border: 1px solid #bebdbd;
+  border-radius: 10px;
+  width: 89vw;
+}
+
+
+.form{
+  height: 25vh;
+  font-size: 16px;
+}
+
+.btn-send{
+  background: #3F3FEA 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 8px #00000019;
+  border-radius: 10px;
+  opacity: 1;
+  color: white;
+}
+
+.my-btn{
+  box-shadow: 0px 0px 8px #0000001A;
+  width: 21vw;
+  height: 10vh;
+  border-radius: 10px;
+ 
+}
+
+
+canvas{
+  border: 1px solid #CFCBFB;
+  border-radius: 10px;
+  width: 100%;
+  height: 50vh;
+}
+
+@media ( min-width: 768px ) {
   .student{
-    border: 1px solid #DADCE0;
-    border-radius: 10px;
-    background-color: white;
-    width: 89vw;
-    margin-left: auto;
-    margin-right: auto;
+    width: 588px;
+  }
+  .photo-box{
+    width: 588px;
   }
 
   .white-box{
-    background-color: white;
-    border-top: 1px solid #DADCE0;
-    border-bottom: 1px solid #DADCE0;
-    padding-top:10px;
-    padding-bottom:10px;
-    width: 100vw;
-    height: 61vh;
+    height: 30vw;
   }
-
-  .photo-box{
-      border: 1px solid #DADCE0;
-      border-radius: 10px;
-  }
-
-  .preview-box{
-    border: 1px solid #CFCBFB;
-    border-radius: 10px;
-    height: 55vh;
-    width: 89vw;
-  }
-
-  .btn-send{
-    background: #3F3FEA 0% 0% no-repeat padding-box;
-    box-shadow: 0px 0px 8px #00000019;
-    border-radius: 10px;
-    opacity: 1;
-    color: white;
-    width: 89vw;
-  }
-
   .my-btn{
-    box-shadow: 0px 0px 8px #0000001A;
-    width: 21vw;
-    height: 10vh;
-    border-radius: 10px;
+    width: 80px;
+    height: 70px;
   }
+}
