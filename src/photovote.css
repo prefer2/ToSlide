@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    
+  }
+
+  body{
+    background-color: #F4F5F6;
+  }
+  
+  button{
+    border: none;
+    background-color: white;
+  }
+
+  .white-box{
+    background-color: white;
+    border-top: 1px solid #DADCE0;
+    border-bottom: 1px solid #DADCE0;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 100vw;
+  }
+
+  .student{
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+    background-color: white;
+    width: 89vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .white-box{
+    background-color: white;
+    border-top: 1px solid #DADCE0;
+    border-bottom: 1px solid #DADCE0;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .show{
+      border: 1px solid #DADCE0;
+      height: 62vh;
+      width: 89vw;
+      border-radius: 10px;
+  }
+
+  .content{
+    font-size: 16px;
+  }
+
+
+  .my-btn{
+    box-shadow: 0px 0px 8px #0000001A;
+    width: 21vw;
+    height: 10vh;
+    border-radius: 10px;
+  }
+
+  .my-btnn{
+    margin-right: 1.7vw;
+  }
+
+  .vote-box{
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+    width: 89vw;
+    position: relative;
+  }
+
+  .vote-list-image{
+      width: 87%;
+  }
+
+  .vote-num{
+      color: #ADAFB3;
+      padding-right: 0.8vw;
+      padding-left: 0.8vw;
+  }
+
+  .vote-image-size{
+      width: 30vw;
+  }
+
