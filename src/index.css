@@ -24,7 +24,7 @@
     padding-top:10px;
     padding-bottom:10px;
     width: 100vw;
-    height: 65vh;
+    height: 61vh;
   }
 
   .student{
@@ -42,19 +42,18 @@
     width: 89vw;
   }
 
- select {
+ .enter {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border: 1px solid #CFCBFB;
   border-radius: 7px;
   opacity: 1;
   color: #4535f3;
-  font-family: inherit;
-  background: url('./image/drop_down_dark_gray.png') 97% center no-repeat;
-  background-size: 30px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  padding-left: 5px;
+  width: 80vw;
+  }
+
+  .my-dropdown{
+    border: 1px solid #CFCBFB;
+    border-radius: 7px;
   }
     
   select::-ms-expand {
@@ -62,7 +61,7 @@
   }
 
   .form{
-    height: 30vh;
+    height: 25vh;
     font-size: 16px;
   }
   
