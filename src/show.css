@@ -17,15 +17,7 @@
     background-color: white;
   }
 
-  .white-box{
-    background-color: white;
-    border-top: 1px solid #DADCE0;
-    border-bottom: 1px solid #DADCE0;
-    padding-top:10px;
-    padding-bottom:10px;
-    width: 100vw;
-  }
-
+  
   .student{
     border: 1px solid #DADCE0;
     border-radius: 10px;
@@ -42,12 +34,12 @@
     padding-top:10px;
     padding-bottom:10px;
     width: 100vw;
-    height: 61vh;
+    height: 65vh;
   }
 
   .show{
       border: 1px solid #DADCE0;
-      height: 58vh;
+      height: 61vh;
       width: 89vw;
       border-radius: 10px;
   }
