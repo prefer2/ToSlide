@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+
+  .my-title{
+    font-weight: 700;
+  }
+
+  .number{
+    background-color: #f4f5f6;
+  }
+
+  .css-count{
+    color:#a0a1a1;
+    font-size: 16px;
+  }
+
+  .css-active{
+    color: #4535F3;
+    font-size: 18px;
+  }
+
+  .css-ip{
+    color:#a0a1a1;
+  }
+
+  .css-table{
+    border-bottom: 1px solid #a0a1a1;
+    height: 60px;
+  }
+  .count{
+      font-size: 16px;
+      font-weight: 700;
+  }
+
+  .close-btn{
+      border: none;
+      background-color: transparent;
+  }
+  .student-sort{
+      font-weight: 500;
+  }
+  
+  .bottom-back{
+    background-color: #f4f5f6;
+  }
+
+  .active-btn{
+      font-size: 14px;
+      border: none;
+      background-color: white;
+  }
+  
+  .bottom-btn{
+    font-size: 12px;
+    border: none;
+    background-color: white;
+  }
+
+
+  .top-btn{
+    font-size: 12px;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+  }
+
+  .num{
+      color: #dadce0;
+  }
+  
+  .my-student{
+    color: #a0a1a1;
+  }
+
+  .send-btn{
+    background-color: #4535F3;
+    color: white;
+    border: none;
+  }
+
+  .text-overflow:hover{
+    background-color: #f4f5f6;
+  }
+
+  
